@@ -6,8 +6,6 @@ PHP library to use Quandle API - access over 6 million time series data and uplo
 Sample usage:
 <pre>
 
-<?php
-
 include __DIR__ . '/lib/Quandl.php';
 $token = 'YOUR_API_TOKEN';
 
