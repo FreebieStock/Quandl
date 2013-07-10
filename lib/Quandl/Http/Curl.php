@@ -82,6 +82,7 @@ class Quandl_Http_Curl extends Quandl_Http {
 	public function post($url, $data = array()) {
 		// Set POST data
 		$this->setOptions(array(
+			CURLOPT_URL => $url,
 			CURLOPT_POST => count($data),
 			CURLOPT_POSTFIELDS => http_build_query($data),
 		));
