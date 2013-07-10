@@ -9,8 +9,7 @@ Sample usage:
 include __DIR__ . '/lib/Quandl.php';
 $token = 'YOUR_API_TOKEN';
 
-$code = 'STATCHINA/P1642';
 $quandl = new Quandl($token);
-$data = $quandl->download($code);
+$data = $quandl->download('STATCHINA/P1642');
 
 </pre>
