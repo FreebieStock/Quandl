@@ -1,7 +1,7 @@
 Quandl
 ======
 
-PHP library to use Quandle API - access over 6 million time series data and upload yours
+PHP library to use Quandl API - access over 6 million time series data and upload yours
 
 Sample usage:
 <pre>
