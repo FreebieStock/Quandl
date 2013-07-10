@@ -4,6 +4,7 @@ Quandl
 PHP library to use Quandl API - access over 6 million time series data and upload yours.
 
 Quandle site: www.quandl.com
+
 API documentation: www.quandl.com/api
 
 Sample usage:
