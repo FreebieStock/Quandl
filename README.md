@@ -11,9 +11,8 @@ Sample usage:
 <pre>
 
 include __DIR__ . '/lib/Quandl.php';
-$token = 'YOUR_API_TOKEN';
 
-$quandl = new Quandl($token);
+$quandl = new Quandl('YOUR_API_TOKEN');
 $data = $quandl->download('STATCHINA/P1642');
 
 </pre>
